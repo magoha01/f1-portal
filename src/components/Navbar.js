@@ -1,30 +1,35 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
-import "../styles/App.css";
+import { Link } from "react-router-dom";
+import "../styles/App.less";
 
 
 function Navbar() {
   return (
     <div>
       <nav className="navbar">
-        <img
-          className="nav-logo"
-          src={require("../images/navLogo.png")}
-          alt="aafr-logo"
-        />
+        <div className="nav-header">
+          <img
+            src={require("../images/navLogo.png")}
+            alt="aafr-logo"
+          />
+          <h1 className="league-name">
+            America's Alliance Formula Racing
+          </h1>
+        </div>
+
         <div className="nav-items">
-          <NavLink className="nav-item" to="/">
+          <Link className="nav-item" to="/">
             Home
-          </NavLink>
-          <NavLink className="nav-item" to="/results">
+          </Link>
+          <Link className="nav-item" to="/results">
             Results
-          </NavLink>
-          <NavLink className="nav-item" to="/schedule">
+          </Link>
+          <Link className="nav-item" to="/schedule">
             Schedule
-          </NavLink>
-          <NavLink className="nav-item" to="/protests">
+          </Link>
+          <Link className="nav-item" to="/protests">
             Protests
-          </NavLink>
+          </Link>
         </div>
       </nav>
     </div>

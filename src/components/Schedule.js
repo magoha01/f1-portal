@@ -1,10 +1,10 @@
 import React from "react";
-import "../styles/App.css";
+import "../styles/App.less";
 
 function Schedule() {
   return (
     <div>
-        <h1>Schedule</h1>
+      <h2>Schedule</h2>
     </div>
   );
 }

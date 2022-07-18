@@ -1,0 +1,108 @@
+@import '~antd/dist/antd.css';
+
+.App {
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+}
+
+h1{
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  background: linear-gradient(90deg, #252BFC 0%, #65FE5A 100%);
+}
+
+.nav-header{
+  display: flex;
+  width: 50%;
+  border: 1px solid red;
+  & .league-name{
+    margin: auto 3%;
+    font-size: 1.3rem;
+    line-height: .9;
+    font-weight: bold;
+    width: 90%;
+  }
+}
+
+.nav-items {
+  display: flex;
+  text-decoration: none;
+  width: 50%;
+  justify-content: space-between;
+  border: 1px solid red;
+  align-items: center;
+  & Link {
+    border: 1px solid blue;
+    width: 100%;
+    text-decoration: none;
+  }
+}
+
+.nav-item{
+  display: flex;
+  color: white;
+  border: 1px solid red;
+  font-size: 1rem;
+  
+}
+
+.nav-logo{
+  width: 4%;
+  margin: .5%;
+  height: auto;
+}
+
+.nav-item:hover {
+  color: #000;
+}
+a:active {
+  color: #fff;
+  font-weight: bold;
+}
+a:active,
+a:hover {
+  text-decoration: none;
+  outline: 0;
+}
+
+table{
+  margin: 2% auto;
+  width: 80%;
+  background-color: lightblue;
+  text-align: left;
+
+ & thead{
+  padding: 1%;
+  background-color: darkorange;
+  width: 100%;
+}
+  & tbody{
+
+    width: 100%;
+  }
+
+  & th{
+  padding: 1%;
+  }
+}
+
+.table-row{
+  width:100%;
+}
+
+.table-data{
+    padding: 1%;
+    border-bottom: 1px solid black;
+}
+
+h2{
+  margin: 2%;
+  color: white;
+}
+
+

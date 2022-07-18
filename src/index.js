@@ -1,10 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './styles/index.css';
+import './styles/index.less';
 import App from './App';
+// import Protests from "./components/Protests";
+// import Results from "./components/Results";
+// import Schedule from "./components/Schedule";
+// import Home from "./components/Home";
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter as Router} from "react-router-dom";
+import { BrowserRouter as Router, Route} from "react-router-dom";
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 
 root.render(
   <Router>

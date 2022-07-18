@@ -1,10 +1,10 @@
 import React from "react";
-import "../styles/App.css";
+import "../styles/App.less";
 
 function Results() {
   return (
     <div>
-        <h1>Results</h1>
+      <h2>Results</h2>
     </div>
   );
 }
